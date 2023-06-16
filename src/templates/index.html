@@ -14,34 +14,20 @@
     <link rel="icon" href="./favicon.png">
 
 
-    <script src="https://use.fontawesome.com/b070c8f1df.js"></script>
-    <title>Lupis Nyari Makan</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+    <title>Lupis Restaurant</title>
   </head>
   <body>
-    <header class="app-bar">
-      <div class="app-bar__menu">
-        <button id="hamburgerButton">☰</button>
-      </div>
-      <div class="app-bar__brand">
-        <h1>Lupis Nyari Makan</h1>
-      </div>
-      <nav id="navigationDrawer" class="app-bar__navigation">
-        <ul>
-          <li><a href="#/home">Home</a></li>
-          <li><a href="#/favorite">Favorite</a></li>
-          <li><a target="_blank" rel="noopener" href="https://github.com/vegaputraa">About Us</a></li>
-        </ul>
-      </nav>
-    </header>
+    <a href="#maincontent" class="skip-link">Menuju ke konten</a>
+    <app-bar></app-bar>
 
-    <div class="hero">
-      <div class="hero__inner">
-        <h1 class="hero__title">Halo Lupis! Yuk Cari Makan.</h1>
-        <p class="hero__tagline">Kalo Laper Jangan Khawatir Piss, Kalian Bisa Cari Rekomendasi Resto dan Makanan Disini.</p>
-      </div>
-    </div>
-    <main id="maincontent">
+    <jumbo-hero></jumbo-hero>
+
+    
+    <main id="maincontent" tabindex="0">
     </main>
-    <footer>Copyright &copy 2023 - Lupis Nyari Makan (Vega Putra Dwi Agni - F144XB43)</footer>
+    <footer>
+      <footer-bar></footer-bar>
+    </footer>
   </body>
 </html>
